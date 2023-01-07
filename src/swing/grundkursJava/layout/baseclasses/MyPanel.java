@@ -1,4 +1,4 @@
-package swing.grundkursJava.layout;
+package swing.grundkursJava.layout.baseclasses;
 
 import javax.swing.JPanel;
 import java.awt.Color;

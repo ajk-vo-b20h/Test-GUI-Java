@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43f8410a-0185-4154-ba24-8b9eddc035a1" name="Changes" comment="Grundkurs Java finished chapter 27.1 and 27.2">
-      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/frames/layout/MyPanel.java" afterDir="false" />
+    <list default="true" id="43f8410a-0185-4154-ba24-8b9eddc035a1" name="Changes" comment="Sorted">
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/BorderLayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/BoxLayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/FlowLayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/GridBagLayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/GridLayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/LayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/NullLayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/baseclasses/BaseLayout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/grundkursJava/layout/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/grundkursJava/layout/baseclasses/MyPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +60,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MouseTest">
-    <configuration name="Close1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.frames.Close1" />
+  <component name="RunManager" selected="Application.LayoutTest">
+    <configuration name="BorderLayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.layout.BorderLayoutTest" />
       <module name="Test-GUI-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swing.grundkursJava.frames.layout.*" />
+          <option name="PATTERN" value="swing.grundkursJava.layout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Close2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.frames.Close2" />
+    <configuration name="BoxLayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.layout.BoxLayoutTest" />
       <module name="Test-GUI-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swing.grundkursJava.frames.layout.*" />
+          <option name="PATTERN" value="swing.grundkursJava.layout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Close3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.frames.Close3" />
+    <configuration name="GridBagLayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.layout.GridBagLayoutTest" />
       <module name="Test-GUI-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swing.grundkursJava.frames.layout.*" />
+          <option name="PATTERN" value="swing.grundkursJava.layout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MouseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.frames.MouseTest" />
+    <configuration name="GridLayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.layout.GridLayoutTest" />
       <module name="Test-GUI-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swing.grundkursJava.frames.layout.*" />
+          <option name="PATTERN" value="swing.grundkursJava.layout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFrame1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.frames.frames.MyFrame1" />
+    <configuration name="LayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.grundkursJava.layout.LayoutTest" />
       <module name="Test-GUI-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swing.grundkursJava.frames.layout.*" />
+          <option name="PATTERN" value="swing.grundkursJava.layout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MouseTest" />
-        <item itemvalue="Application.Close3" />
-        <item itemvalue="Application.Close2" />
-        <item itemvalue="Application.Close1" />
-        <item itemvalue="Application.MyFrame1" />
+        <item itemvalue="Application.LayoutTest" />
+        <item itemvalue="Application.GridBagLayoutTest" />
+        <item itemvalue="Application.BoxLayoutTest" />
+        <item itemvalue="Application.GridLayoutTest" />
+        <item itemvalue="Application.BorderLayoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +149,7 @@
       <workItem from="1672762629312" duration="310000" />
       <workItem from="1672765709968" duration="9369000" />
       <workItem from="1672778891976" duration="606000" />
-      <workItem from="1673095505670" duration="617000" />
+      <workItem from="1673095505670" duration="7501000" />
     </task>
     <task id="LOCAL-00001" summary="First try.">
       <created>1672701887855</created>
@@ -156,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672778842619</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sorted">
+      <created>1673096323870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673096323870</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +181,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First try." />
     <MESSAGE value="Grundkurs Java finished chapter 27.1 and 27.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grundkurs Java finished chapter 27.1 and 27.2" />
+    <MESSAGE value="Sorted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted" />
   </component>
 </project>
