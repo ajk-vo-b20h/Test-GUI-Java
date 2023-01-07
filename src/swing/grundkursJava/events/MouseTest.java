@@ -1,4 +1,4 @@
-package swing.grundkursJava.frames;
+package swing.grundkursJava.events;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -6,7 +6,6 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MouseTest  extends JFrame {

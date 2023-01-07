@@ -1,4 +1,4 @@
-package swing.grundkursJava.frames;
+package swing.grundkursJava.events;
 
 import javax.swing.JFrame;
 import java.awt.event.KeyEvent;
